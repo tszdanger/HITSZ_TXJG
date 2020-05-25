@@ -10587,23 +10587,12 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
       <a name="contents">addr/data: 16 32
-fffff937 800009b7 400a13 513 593 613 693 713
-793 813 893 800b13 b93 800c13 c93 38b83b3
-19383b3 34382b3 1328333 32503 430313 32583 430313 32603
-430313 32683 34382b3 1328333 38b0eb3 34e8eb3 1d30f33 f2703
-4f0f13 f2783 4f0f13 f2803 4f0f13 f2883 e50d33 1a2a023
-f58db3 1b2a023 400393 e13 d0eb3 fef313 a33f13 f1463
+fffff937 800009b7 400a13 800b13 b93 800c13 c93 38b83b3
+19383b3 34382b3 1328333 32e03 38b0eb3 34e8eb3 1d30f33 f2f83
+1fe0d33 1a2a023 400393 e13 d0eb3 fef313 a33f13 f1463
 730313 3030313 8e1e13 6e0e33 4ede93 fff38393 fc039ee3 e0f93
-fffff93 1f92423 8e5e13 fe0e18e3 2000f93 1f92423 400393 e13
-d8eb3 fef313 a33f13 f1463 730313 3030313 8e1e13 6e0e33
-4ede93 fff38393 fc039ee3 e0f93 fffff93 1f92423 8e5e13 fe0e18e3
-2000f93 1f92423 1060d33 1a2a023 1168db3 1b2a023 400393 e13
-d0eb3 fef313 a33f13 f1463 730313 3030313 8e1e13 6e0e33
-4ede93 fff38393 fc039ee3 e0f93 fffff93 1f92423 8e5e13 fe0e18e3
-2000f93 1f92423 400393 e13 d8eb3 fef313 a33f13 f1463
-730313 3030313 8e1e13 6e0e33 4ede93 fff38393 fc039ee3 e0f93
-fffff93 1f92423 8e5e13 fe0e18e3 2000f93 1f92423 4c8c93 e58c90e3
-1b8b93 e36b98e3
+fffff93 1f92423 8e5e13 fe0e18e3 2000f93 1f92423 1c8c93 f98c90e3
+1b8b93 f76b98e3
 </a>
       <a name="Select" val="high"/>
     </comp>
@@ -16396,7 +16385,7 @@ fffffff8 fffffff9 fffffffa fffffffb fffffffc fffffffd fffffffe ffffffff
     </comp>
     <comp lib="3" loc="(2810,2060)" name="Comparator">
       <a name="width" val="8"/>
-      <a name="mode" val="twosComplement"/>
+      <a name="mode" val="unsigned"/>
     </comp>
     <comp lib="6" loc="(584,217)" name="Text">
       <a name="text" val="请勿增改引脚，请勿修改子电路封装"/>
@@ -16998,7 +16987,7 @@ fffffff8 fffffff9 fffffffa fffffffb fffffffc fffffffd fffffffe ffffffff
     </comp>
     <comp lib="3" loc="(2810,1820)" name="Comparator">
       <a name="width" val="8"/>
-      <a name="mode" val="twosComplement"/>
+      <a name="mode" val="unsigned"/>
     </comp>
     <comp lib="2" loc="(3150,2030)" name="Multiplexer">
       <a name="facing" val="east"/>
@@ -17231,7 +17220,7 @@ fffffff8 fffffff9 fffffffa fffffffb fffffffc fffffffd fffffffe ffffffff
     </comp>
     <comp lib="3" loc="(2810,1610)" name="Comparator">
       <a name="width" val="8"/>
-      <a name="mode" val="twosComplement"/>
+      <a name="mode" val="unsigned"/>
     </comp>
     <comp lib="0" loc="(3530,2010)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -17366,7 +17355,7 @@ fffffff8 fffffff9 fffffffa fffffffb fffffffc fffffffd fffffffe ffffffff
     </comp>
     <comp lib="3" loc="(3300,1480)" name="Comparator">
       <a name="width" val="8"/>
-      <a name="mode" val="twosComplement"/>
+      <a name="mode" val="unsigned"/>
     </comp>
     <comp lib="6" loc="(1220,454)" name="Text">
       <a name="text" val="块数据输出"/>
@@ -17725,7 +17714,7 @@ fffffff8 fffffff9 fffffffa fffffffb fffffffc fffffffd fffffffe ffffffff
     </comp>
     <comp lib="3" loc="(3280,1910)" name="Comparator">
       <a name="width" val="8"/>
-      <a name="mode" val="twosComplement"/>
+      <a name="mode" val="unsigned"/>
     </comp>
     <comp lib="0" loc="(2590,2140)" name="Tunnel">
       <a name="facing" val="north"/>
@@ -18946,7 +18935,7 @@ fffffff8 fffffff9 fffffffa fffffffb fffffffc fffffffd fffffffe ffffffff
     </comp>
     <comp lib="3" loc="(3490,1710)" name="Comparator">
       <a name="width" val="8"/>
-      <a name="mode" val="twosComplement"/>
+      <a name="mode" val="unsigned"/>
     </comp>
     <comp lib="0" loc="(1190,1620)" name="Tunnel">
       <a name="facing" val="west"/>
@@ -19043,7 +19032,7 @@ fffffff8 fffffff9 fffffffa fffffffb fffffffc fffffffd fffffffe ffffffff
     </comp>
     <comp lib="3" loc="(2810,1390)" name="Comparator">
       <a name="width" val="8"/>
-      <a name="mode" val="twosComplement"/>
+      <a name="mode" val="unsigned"/>
     </comp>
     <comp lib="6" loc="(579,515)" name="Text">
       <a name="text" val="三态门控制多行输出"/>

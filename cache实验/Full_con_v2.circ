@@ -88,6 +88,7 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="out_width" val="8"/>
       <a name="type" val="zero"/>
     </tool>
+  <lib>
   </lib>
   <lib desc="#Gates" name="1">
     <tool name="NOT Gate">
